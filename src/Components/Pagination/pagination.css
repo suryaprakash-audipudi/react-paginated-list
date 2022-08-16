@@ -1,0 +1,12 @@
+.pages-container{
+    display:flex;
+    justify-content: center;    
+}
+.page {
+    padding:10px;    
+    list-style: none;
+}
+.page.active {
+    background-color: gold;
+    color:#fff;
+}
